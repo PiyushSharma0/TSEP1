@@ -9,10 +9,10 @@ public class StudentService {
 	
 	public List<Student> displayStudent(){
 		
-		list.add(new Student(1, "piyush", 0));
-		list.add(new Student(2, "akash", 0));
-		list.add(new Student(3, "sunny", 0));
-		list.add(new Student(4, "divyansh", 0));
+		list.add(new Student(1, "Jane", 2500.00f));
+		list.add(new Student(2, "Alex", 5160.00f));
+		list.add(new Student(3, "Bob", 1520.00f));
+		list.add(new Student(4, "Catherine", 9623.00f));
 		
 		return list;
 	}
@@ -22,7 +22,7 @@ public class StudentService {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Enter details to add a new record:");
-		System.out.print("Enter id: ");
+		System.out.println("Enter id: ");
 		int id = input.nextInt();
 		
 		System.out.println("Enter Name: ");
